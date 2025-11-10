@@ -1,0 +1,26 @@
+# rtt2pty-pylink Requirements
+#
+# This project requires the pylink library from the fork:
+# https://github.com/fxd0h/pylink-nrf54-rttFix
+#
+# Install with:
+#   pip install git+https://github.com/fxd0h/pylink-nrf54-rttFix.git
+#
+# Or clone and install:
+#   git clone https://github.com/fxd0h/pylink-nrf54-rttFix.git
+#   cd pylink-nrf54-rttFix
+#   pip install .
+
+# Core dependency
+git+https://github.com/fxd0h/pylink-nrf54-rttFix.git
+
+# Note: Standard library modules used (no installation required):
+# - pty
+# - os
+# - select
+# - signal
+# - sys
+# - time
+# - argparse
+# - errno
+
