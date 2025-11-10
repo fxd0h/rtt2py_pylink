@@ -4,8 +4,6 @@ Python implementation of an RTT to PTY bridge using pylink. This is functionally
 
 **Repository:** [https://github.com/fxd0h/rtt2py_pylink](https://github.com/fxd0h/rtt2py_pylink)
 
-**Author:** Mariano Abad (fxd0h) - weimaraner@gmail.com
-
 ## What it does
 
 The script connects to a J-Link debugger, configures RTT (Real-Time Transfer), finds the specified RTT buffers, and creates a pseudo-terminal (PTY) that bridges the RTT communication. Data from the target device flows through RTT buffers and appears on the PTY, making it accessible as a standard terminal device.
