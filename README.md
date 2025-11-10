@@ -2,6 +2,10 @@
 
 Python implementation of an RTT to PTY bridge using pylink. This is functionally equivalent to [rtt2pty](https://github.com/codecoup/tools-rtt2pty), but uses pylink instead of directly calling libjlinkarm.so via dlopen.
 
+**Repository:** [https://github.com/fxd0h/rtt2py_pylink](https://github.com/fxd0h/rtt2py_pylink)
+
+**Author:** Mariano Abad (fxd0h) - weimaraner@gmail.com
+
 ## What it does
 
 The script connects to a J-Link debugger, configures RTT (Real-Time Transfer), finds the specified RTT buffers, and creates a pseudo-terminal (PTY) that bridges the RTT communication. Data from the target device flows through RTT buffers and appears on the PTY, making it accessible as a standard terminal device.
@@ -170,6 +174,16 @@ def find_buffer_by_name(jlink, name, up=True):
 ```
 
 This matches the functionality of rtt2pty's buffer search, which iterates through buffers and compares names using strcmp().
+
+## Author
+
+**Mariano Abad (fxd0h)**  
+Email: weimaraner@gmail.com  
+GitHub: [@fxd0h](https://github.com/fxd0h)
+
+## Repository
+
+**GitHub:** [https://github.com/fxd0h/rtt2py_pylink](https://github.com/fxd0h/rtt2py_pylink)
 
 ## References
 
